@@ -1,11 +1,11 @@
 /*-----------------------------------------------------------------
 
-Template Name: Gratech - IT Service HTML Template
+Template Name: QT Global - IT Service HTML Template
 Author:  Gramentheme
 Author URI: https://themeforest.net/user/gramentheme/portfolio
 Developer: Kawser Ahmed Roni
 Version: 1.0.0
-Description: Gratech - IT Service HTML5 Template
+Description: QT Global - IT Service HTML5 Template
 
 -------------------------------------------------------------------
 CSS TABLE OF CONTENTS

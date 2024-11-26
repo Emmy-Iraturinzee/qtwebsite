@@ -1,11 +1,11 @@
 /*-----------------------------------------------------------------
 
-Template Name: Gratech - IT Service HTML Template
+Template Name: QT Global - IT Service HTML Template
 Author:  Gramentheme
 Author URI: https://themeforest.net/user/gramentheme/portfolio
 Developer: Kawser Ahmed Roni
 Version: 1.0.0
-Description: Gratech - IT Service HTML5 Template
+Description: QT Global - IT Service HTML5 Template
 
 -------------------------------------------------------------------
 CSS TABLE OF CONTENTS
@@ -37,7 +37,7 @@ CSS TABLE OF CONTENTS
   --primary-color: #054163;
   --primary10: rgba(60, 114, 252, 0.1);
   --gradient-bg:#054163;
-  --secondary-color: #0f0d1d;
+  --secondary-color: #054163;
   --main-bg: #ffffff;
   --sub-bg: #f3f7fb;
   --heading-color: #0f0d1d;
@@ -56,7 +56,7 @@ CSS TABLE OF CONTENTS
   --primary-color: #054163;
   --primary10: rgba(60, 114, 252, 0.1);
   --gradient-bg: #054163;
-  --secondary-color: #0f0d1d;
+  --secondary-color: #054163;
   --main-bg: #151327;
   --sub-bg: #16142c;
   --heading-color: #fff;
@@ -71,7 +71,7 @@ CSS TABLE OF CONTENTS
   --primary-color: #054163;
   --primary10: rgba(60, 114, 252, 0.1);
   --gradient-bg:#054163;
-  --secondary-color: #0f0d1d;
+  --secondary-color: #054163;
   --main-bg: #ffffff;
   --sub-bg: #f3f7fb;
   --heading-color: #0f0d1d;
@@ -1578,7 +1578,7 @@ button {
 }
 
 .secondary-bg {
-  background-color: var(--secondary-color);
+  background-color: #054163 !important;
 }
 
 .sub-bg {
@@ -2565,7 +2565,7 @@ input.main-search-input::placeholder {
   display: none;
 }
 .header-two-area.menu-fixed {
-  background: linear-gradient(90deg, #0f0d1d -76.72%, #3c72fc 191.51%);
+  background: linear-gradient(90deg, #0f0d1d -76.72%, #054163 191.51%);
   border-bottom: none;
 }
 .header-two-area .header__main .main-menu ul li a {
@@ -2605,7 +2605,7 @@ input.main-search-input::placeholder {
 .header-three-area .header__main .main-menu ul li a::after {
   position: absolute;
   content: "";
-  background: linear-gradient(0.49deg, #3c72fc -126.52%, rgba(60, 114, 252, 0) 92.35%);
+  background: linear-gradient(0.49deg, #054163 -126.52%, rgba(60, 114, 252, 0) 92.35%);
   width: 85px;
   height: 100%;
   bottom: 0;
@@ -3040,7 +3040,7 @@ input.main-search-input::placeholder {
   overflow: hidden;
   position: relative;
   z-index: 1;
-  background: linear-gradient(90deg, #0f0d1d -76.72%, #3c72fc 191.51%);
+  background: linear-gradient(90deg, #0f0d1d -76.72%, #054163 191.51%);
   padding-top: 250px;
   padding-bottom: 200px;
 }
@@ -3295,7 +3295,7 @@ background-size: cover;
   border-radius: 50%;
   transition: var(--transition);
   border-radius: 0;
-  background: var(--gradient-bg);
+  background: #054163;
   margin-bottom: 30px;
   margin-top: -35px;
   transition: 1s;
@@ -3347,7 +3347,7 @@ background-size: cover;
 .service-three-area {
   overflow: hidden;
   position: relative;
-  background-image: url(https://res.cloudinary.com/drimzy/image/upload/v1729693664/Frame_78-min-min_1_fitlcm.png);
+  /* background-image: url(https://res.cloudinary.com/drimzy/image/upload/v1729693664/Frame_78-min-min_1_fitlcm.png); */
   background-size: cover;
  
 }
@@ -3394,6 +3394,7 @@ background-size: cover;
   width: 100%;
   transition: var(--transition);
   opacity: 0;
+ 
 }
 .service-three__up-content .icon {
   width: 70px;
@@ -3403,7 +3404,7 @@ background-size: cover;
   border-radius: 50%;
   transition: var(--transition);
   border-radius: 0px;
-  background: linear-gradient(180deg, #3c72fc -93.57%, #00060c 228.57%);
+  background: linear-gradient(180deg, #054163 -93.57%, #00060c 228.57%);
   margin: 0 auto;
 }
 .service-three__item {
@@ -3418,13 +3419,14 @@ background-size: cover;
   left: 0;
   width: 100%;
   height: 0%;
-  background: linear-gradient(180deg, #3c72fc -21.56%, #00060c 252.19%);
+  background: linear-gradient(180deg, #054163 -21.56%, #00060c 252.19%);
   border-radius: 8px;
   transition: var(--transition);
 }
 .service-three__item:hover .service-three__content {
   opacity: 0;
   bottom: 0;
+
 }
 .service-three__item:hover .service-three__up-content {
   opacity: 1;
@@ -3433,6 +3435,7 @@ background-size: cover;
   height: 100%;
   bottom: 0;
   top: unset;
+  background: linear-gradient(180deg, #054163 -21.56%, #00060c 252.19%) !important;
 }
 @media (max-width: 1199px) {
   .service-three__item {
@@ -3915,7 +3918,7 @@ background-size: cover;
   width: 100%;
   height: 0;
   content: "";
-  background: linear-gradient(0deg, #3c72fc 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(0deg, #054163 0%, rgba(0, 0, 0, 0) 100%);
   transition: var(--transition);
 }
 .case-two__item:hover::after {
@@ -4066,7 +4069,7 @@ background-size: cover;
   border-radius: 50%;
   transition: var(--transition);
   margin: 0 auto;
-  background: linear-gradient(180deg, #3c72fc -210.71%, #00060c 100%);
+  background: linear-gradient(180deg, #054163 -210.71%, #00060c 100%);
   margin-top: -35px;
   transition: 1s;
 }
@@ -4833,7 +4836,7 @@ background-size: cover;
   overflow: hidden;
   position: relative;
   z-index: 1;
-  background: linear-gradient(180deg, #3c72fc -1.09%, #00060c 175.27%);
+  background: linear-gradient(180deg, #054163 -1.09%, #00060c 175.27%);
   padding: 50px 40px;
 }
 .pricing__item .item-shape {
@@ -5049,6 +5052,10 @@ background-size: cover;
   background-size: cover;
 
 }
+.case-title{
+  margin-left: -10px !important;
+}
+
 .footer__wrp {
   position: relative;
   display: flex;
@@ -6924,3 +6931,6 @@ audio {
     min-width: 170px;
   }
 }
+
+
+/* projects carousel */
