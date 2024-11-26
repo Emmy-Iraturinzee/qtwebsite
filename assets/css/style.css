@@ -3424,8 +3424,9 @@ background-size: cover;
   transition: var(--transition);
 }
 .service-three__item:hover .service-three__content {
-  opacity: 0;
+  /* opacity: 0;
   bottom: 0;
+  display: none; */
 
 }
 .service-three__item:hover .service-three__up-content {
@@ -4912,6 +4913,7 @@ background-size: cover;
 }
 .banner-video__wrp img {
   border-radius: 20px;
+
 }
 .banner-video__wrp::before {
   background-color: var(--heading-color);
@@ -6933,4 +6935,24 @@ audio {
 }
 
 
-/* projects carousel */
+/* video Ambient */
+#canvas {
+  position: absolute;
+  width: 75%;
+  height: 102%;
+  filter: blur(30px);
+  -webkit-filter: blur(70px);
+  z-index: 10;
+
+}
+
+video {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 11;
+  border-radius: 10px;
+
+}
+
+
