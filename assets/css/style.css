@@ -2861,7 +2861,7 @@ input.main-search-input::placeholder {
 .banner__content h4, .banner-two__content h4, .banner-three__content h4 {
   text-transform: uppercase;
   font-size: 18px;
-  line-height: 32px;
+  line-height: 30px;
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -2913,10 +2913,16 @@ input.main-search-input::placeholder {
   -o-transition: all 9s ease-out 0s;
   transition: all 9s ease-out 0s;
 }
+
+
+.banner-two__content{
+  /* margin-left: 150px !important; */
+  /* position: absolute !important; */
+}
 .banner__slider .swiper-slide-active .slide-bg {
-  -webkit-transform: scale(1.3);
+  /* -webkit-transform: scale(1.3);
   -moz-transform: scale(1.3);
-  transform: scale(1.3);
+  transform: scale(1.3); */
 }
 .banner-two__shape1 {
   position: absolute;
@@ -6954,5 +6960,7 @@ video {
   border-radius: 10px;
 
 }
+/* carousel */
+
 
 
