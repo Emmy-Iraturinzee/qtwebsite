@@ -2099,6 +2099,7 @@ input.main-search-input::placeholder {
   position: relative;
   z-index: 1;
   overflow: hidden;
+ 
 }
 .btn-two{
   padding: 15px 25px;
@@ -2914,6 +2915,21 @@ input.main-search-input::placeholder {
   transition: all 9s ease-out 0s;
 }
 
+.hero-content {
+  height: 600px;
+
+}
+.container-hero{
+  margin-top: 230px;
+}
+.container-hero h1{
+  line-height: 80px !important;
+  font-weight:800 !important;
+}
+.container-hero p{
+  color: rgb(232, 229, 229);
+  font-weight: lighter;
+}
 
 .banner-two__content{
   /* margin-left: 150px !important; */
