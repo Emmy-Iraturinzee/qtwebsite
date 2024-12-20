@@ -2587,10 +2587,10 @@ input.main-search-input::placeholder {
 }
 /* navbar on scroll */
 .header-three-area.menu-fixed {
-  background: #00000050;
+  background: #022646d2;
   border-bottom: none;
-	-webkit-backdrop-filter: blur(20px);
-	backdrop-filter: blur(10px);
+	/* -webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(10px); */
 	-webkit-user-select: none;
 	user-select: none;
 
@@ -3959,6 +3959,7 @@ background-size: cover;
 .case-single__title {
   font-size: 30px;
   line-height: 32px;
+  font-weight: 800;
 }
 .case-single__item .case-date {
   display: flex;
