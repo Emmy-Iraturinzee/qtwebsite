@@ -4760,7 +4760,7 @@ background-size: cover;
 .team__item {
   position: relative;
 }
-.team__item::before {
+/* .team__item::before {
   transition: var(--transition);
   position: absolute;
   content: "";
@@ -4773,7 +4773,7 @@ background-size: cover;
 .team__item:hover::before {
   height: 100%;
   top: 0;
-}
+} */
 .team-single__image {
   overflow: hidden;
   position: relative;
