@@ -2780,7 +2780,7 @@ input.main-search-input::placeholder {
 }
 
 .banner-area, .banner-two-area {
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 .banner__dot-wrp {
@@ -4789,6 +4789,9 @@ background-size: cover;
   gap: 10px;
   transform: translateX(-50%);
 }
+/* button */
+
+
 .team-single__image .team-info a {
   width: 40px;
   height: 40px;
@@ -5815,13 +5818,14 @@ body .vertical-centered-box .content {
 }
 #particles-background,
 #particles-foreground {
-  left: -51%;
+  right: -51%;
   top: -51%;
   width: 202%;
-  height: 202%;
+  height: 100%;
   transform: scale3d(0.5, 0.5, 1);
-  z-index: 1;
+ 
   position: absolute;
+  z-index: 100;
   
 }
 
