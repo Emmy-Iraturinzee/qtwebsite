@@ -7109,3 +7109,15 @@ video {
   }
 }
 /* garelly */
+/* Company profile */
+.comp-version-sub{
+
+visibility: hidden;
+}
+.company-pro-main-menu:hover .comp-version-sub{
+  opacity: 1 !important;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0px);
+
+}
+
