@@ -7131,3 +7131,16 @@ visibility: hidden;
 
 }
 
+/* navbar test */
+.sub-menu-2 {
+
+  opacity: 0 !important;
+  margin-left: 270px;
+  margin-top: -107px;
+}
+
+.company-pro-main-menu:hover .sub-menu-2{
+  opacity: 1 !important;
+  visibility: visible !important;
+  /* transform: translateX(-50%) translateY(0px); */
+}
